@@ -17,10 +17,8 @@ public class FundTransferRequestDto {
     @NotBlank(message = "To Account Number cannot be empty")
     private String toAccount;
 
-    @NotBlank(message = "Amount cannot be empty")
     private BigDecimal amount;
 
-    @NotBlank(message = "Service Type cannot be empty")
     private ServiceType serviceType;
 
     private String currency;
